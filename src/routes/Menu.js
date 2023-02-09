@@ -11,11 +11,13 @@ import {
   MenuDeal,
 } from "./Menu.styled";
 import { Data } from "./MenuData";
+import { useOutletContext } from "react-router-dom";
 
 const Menu = () => {
   const [category, setCategory] = useState(Data);
   const [filtered, setFiltered] = useState(Data);
   const [activeCategory, setActiveCategory] = useState("All");
+  const handleClick = useOutletContext();
 
   return (
     <div className="menu">
@@ -32,7 +34,7 @@ const Menu = () => {
               <MenuItem key={index}>
                 <MenuImg src={item.image} alt="" />
                 <MenuTitle>{item.title}</MenuTitle>
-                <MenuPrice>
+                <MenuPrice onClick={() => handleClick(item)}>
                   {item.price}
                 </MenuPrice>
                 <MenuDeal>{item.deal}</MenuDeal>

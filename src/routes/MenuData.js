@@ -7,6 +7,7 @@ export const Data = [
     price: "$1.99",
     deal: "5% off 3 rolls",
     id: "Roll",
+    amount: 1,
   },
   {
     image: ImgSushiRoll,
@@ -14,6 +15,7 @@ export const Data = [
     price: "$7.99",
     deal: " ",
     id: "Set",
+    amount: 1,
   },
   {
     image: ImgSushiRoll,
@@ -21,6 +23,7 @@ export const Data = [
     price: "$2.99",
     deal: " ",
     id: "Dessert",
+    amount: 1,
   },
   {
     image: ImgSushiRoll,
@@ -28,6 +31,7 @@ export const Data = [
     price: "$1.99",
     deal: " ",
     id: "Vegetarian",
+    amount: 1,
   },
   {
     image: ImgSushiRoll,
@@ -35,6 +39,7 @@ export const Data = [
     price: "$0.99",
     deal: " ",
     id: "Beverage",
+    amount: 1,
   },
   {
     image: ImgSushiRoll,
@@ -42,6 +47,7 @@ export const Data = [
     price: "$1.99",
     deal: "5% off 3 rolls",
     id: "Roll",
+    amount: 1,
   },
   {
     image: ImgSushiRoll,
@@ -49,6 +55,7 @@ export const Data = [
     price: "$7.99",
     deal: " ",
     id: "Set",
+    amount: 1,
   },
   {
     image: ImgSushiRoll,
@@ -56,6 +63,7 @@ export const Data = [
     price: "$2.99",
     deal: " ",
     id: "Dessert",
+    amount: 1,
   },
   {
     image: ImgSushiRoll,
@@ -63,6 +71,7 @@ export const Data = [
     price: "$1.99",
     deal: " ",
     id: "Vegetarian",
+    amount: 1,
   },
   {
     image: ImgSushiRoll,
@@ -70,75 +79,6 @@ export const Data = [
     price: "$0.99",
     deal: " ",
     id: "Beverage",
-  },
-  {
-    image: ImgSushiRoll,
-    title: "California sushi roll with tuna, vegetables and unagi sauce.",
-    price: "$1.99",
-    deal: "5% off 3 rolls",
-    id: "Roll",
-  },
-  {
-    image: ImgSushiRoll,
-    title: "Sushi Set",
-    price: "$7.99",
-    deal: " ",
-    id: "Set",
-  },
-  {
-    image: ImgSushiRoll,
-    title: "Dessert",
-    price: "$2.99",
-    deal: " ",
-    id: "Dessert",
-  },
-  {
-    image: ImgSushiRoll,
-    title: "Vegetarian Rolls",
-    price: "$1.99",
-    deal: " ",
-    id: "Vegetarian",
-  },
-  {
-    image: ImgSushiRoll,
-    title: "Beverages",
-    price: "$0.99",
-    deal: " ",
-    id: "Beverage",
-  },
-  {
-    image: ImgSushiRoll,
-    title: "California sushi roll with tuna, vegetables and unagi sauce.",
-    price: "$1.99",
-    deal: "5% off 3 rolls",
-    id: "Roll",
-  },
-  {
-    image: ImgSushiRoll,
-    title: "Sushi Set",
-    price: "$7.99",
-    deal: " ",
-    id: "Set",
-  },
-  {
-    image: ImgSushiRoll,
-    title: "Dessert",
-    price: "$2.99",
-    deal: " ",
-    id: "Dessert",
-  },
-  {
-    image: ImgSushiRoll,
-    title: "Vegetarian Rolls",
-    price: "$1.99",
-    deal: " ",
-    id: "Vegetarian",
-  },
-  {
-    image: ImgSushiRoll,
-    title: "Beverages",
-    price: "$0.99",
-    deal: " ",
-    id: "Beverage",
+    amount: 1,
   },
 ];

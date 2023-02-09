@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
@@ -18,10 +18,24 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 const AppLayout = () => {
+  const [basket, setBasket] = useState([]);
+  const handleClick = (item) => {
+    if (basket.indexOf(item) !== -1) return;
+    setBasket([...basket, item]);
+  };
+  const handleChange = (item, unit) => {
+    const ind = basket.indexOf(item);
+    const arr = basket;
+    arr[ind].amount += unit;
+
+    if (arr[ind].amount === 0) arr[ind].amount = 1;
+    setBasket([...arr]);
+  };
+
   return (
     <>
       <Navbar />
-      <Outlet />
+      <Outlet context={handleClick} />
       <Footer />
     </>
   );
