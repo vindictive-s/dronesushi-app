@@ -21,6 +21,7 @@ export const Sidebar = [
     path: "/basket",
     icons: <FaIcons.FaCartPlus />,
     cName: "nav-text",
+    qty: 0,
   },
   {
     title: "payment",

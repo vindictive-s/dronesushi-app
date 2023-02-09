@@ -29,10 +29,12 @@ const Menu = () => {
         <MenuWrapper>
           {filtered.map((item, index) => {
             return (
-              <MenuItem>
+              <MenuItem key={index}>
                 <MenuImg src={item.image} alt="" />
                 <MenuTitle>{item.title}</MenuTitle>
-                <MenuPrice>{item.price}</MenuPrice>
+                <MenuPrice>
+                  {item.price}
+                </MenuPrice>
                 <MenuDeal>{item.deal}</MenuDeal>
               </MenuItem>
             );

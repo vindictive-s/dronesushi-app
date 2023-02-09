@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const MenuContainer = styled.div`
   align-items: center;
   justify-content: center;
+  min-height: 90vh;
 `;
 
 export const MenuWrapper = styled.div`
@@ -21,7 +22,8 @@ export const MenuItem = styled.div`
   border: 2px solid #2d2d2d;
   border-radius: 10px;
   padding: 10px;
-  display: block;
+  display: flex;
+  flex-direction: column;
   background: #fefefe;
 `;
 
@@ -35,18 +37,22 @@ export const MenuImg = styled.img`
 
 export const MenuTitle = styled.h2`
   font-size: 1rem;
+  margin-top: 5px;
   margin-bottom: 10px;
   text-align: left;
+  min-height: 5rem;
 `;
 
-export const MenuPrice = styled.h2`
+export const MenuPrice = styled.button`
+  align-items: center;
+  justify-content: center;
   font-size: 1rem;
   background: #2d2d2d;
   padding: 5px;
+  border: none;
   border-radius: 5px;
   color: #e2e2e2;
   margin-bottom: 5px;
-  text-align: center;
 
   &:hover {
     background: #4d4d4d;

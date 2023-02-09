@@ -34,6 +34,7 @@ const Navbar = () => {
                   <Link to={item.path}>
                     {item.icons}
                     <span>{item.title}</span>
+                    <span>{item.qty}</span>
                   </Link>
                 </li>
               );
