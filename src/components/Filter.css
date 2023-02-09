@@ -1,0 +1,26 @@
+h2 {
+    font-size: 0.8rem;
+}
+
+.filter-container {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.filter-container button {
+    margin-right: 1rem;
+    min-width: 5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #fefefe;
+    color: #2d2d2d;
+    border-radius: 10px;
+    border: 2px solid #2d2d2d;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button.active {
+    background: #2d2d2d;
+    color: #e2e2e2;
+}
